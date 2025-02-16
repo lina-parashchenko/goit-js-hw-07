@@ -80,5 +80,26 @@ flex-direction: column;
   color: #2e2f42;
   align-items: center;
   padding-left: 16px;
+}
 
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  background-color: #fff;
+  gap: 24px;
+  padding: 100px 156px;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  
+  height: 300px;
+  overflow: hidden;
+ 
+}
+img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
 }
