@@ -20,11 +20,14 @@ ol {
   padding: 0;
 }
 #categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   border-radius: 8px;
-    padding: 24px;
     width: 440px;
     height: 888px;
     background: #fff;
+    padding: 24px;
 }
 
 .item{
@@ -52,7 +55,8 @@ height: 312px;
     line-height: 1.33333;
     letter-spacing: 0.04em;
     color: #2e2f42;
-    padding-top: 16px;
+    margin: 16px 0 16px;
+   
 }
 .list-item{
 display: flex;
