@@ -118,7 +118,7 @@ input{
     border-radius: 4px;
     width: 360px;
     height: 40px;
-    margin-top: 8px;
+   
 }
 
 input:hover{
@@ -216,3 +216,82 @@ input:active{
       line-height: 1.5;
       letter-spacing: 0.04em;
 }
+
+.script-box{
+  border-radius: 8px;
+    padding: 24px;
+    width: 534px;
+    height: 302px;
+    background-color: #fff;
+}
+
+ #controls{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background-color:#f6f6fe;;
+    justify-content:baseline;
+ }
+ .input-num{
+  border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+ }
+
+ .btn-creat{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #4e75ff;
+    color:#fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    cursor: pointer;
+ }
+ .btn-creat:hover{
+  background: #6c8cff;
+ }
+ .btn-destroy{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;   
+ }
+
+ .btn-destroy:hover{
+background: #ff7070;
+ }
+
+ #boxes{
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 134px;
+    background: #f6f6fe;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+ }
